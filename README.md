@@ -1,5 +1,5 @@
 # startReactRedux
-My version of  a React/Redux bootstrapper.
+My version of  a React/Redux boilerplate.
 
 Right now this is to get quickly started in a dev environment
 without having to setup all the basics. It includes the following:
