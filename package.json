@@ -1,5 +1,5 @@
 {
-  "name": "gameBacklog",
+  "name": "React_Starter",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -26,7 +26,6 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "next",
     "redux": "^3.7.2",
-    "redux-form": "^7.2.0",
     "style-loader": "^0.19.0"
   }
 }

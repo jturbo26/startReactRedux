@@ -42,7 +42,7 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx', '.css'],
-    modules: [path.resolve('./src'), path.resolve('./node_modules')]
+    modules: [path.resolve(__dirname, 'src'), './node_modules']
   },
   devtool: 'source-map',
   devServer: {

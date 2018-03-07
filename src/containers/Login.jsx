@@ -1,14 +1,28 @@
 import React from 'react';
-
-import LoginForm from 'components/reduxForms/LoginForm';
+import { connect } from 'react-redux';
+import InputWrapper from 'containers/InputWrapper';
+import Input from 'components/genericComponents/Input';
 
 const Login = () => {
   return (
     <div>
       <h1>This is the login page of our App</h1>
-      <LoginForm />
+      <InputWrapper
+        component={Input}
+        type='text'
+        inputName='username'
+      />
+      <InputWrapper
+        component={Input}
+      />
     </div>
   );
 };
 
-export default Login;
+const mapStateToProps = state => {
+  return {
+    state
+  }
+}
+
+export default connect(mapStateToProps, null)(Login);

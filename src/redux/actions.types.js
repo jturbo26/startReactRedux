@@ -1,0 +1,1 @@
+export const UPDATE_INPUTS = 'UPDATE_INPUTS';
