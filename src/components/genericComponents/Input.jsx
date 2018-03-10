@@ -4,8 +4,9 @@ const Input = ({
   inputName,
   type,
   onChange,
+  input
 }) => {
-  return <input onChange={onChange} type={type} />;
+  return <input {...input} onChange={onChange} type={type} />;
 };
 
 export default Input;

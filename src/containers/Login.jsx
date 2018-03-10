@@ -14,7 +14,18 @@ const Login = () => {
       />
       <InputWrapper
         component={Input}
+        type='radiotype'
+        inputName='radio1'
+        name='radio'
       />
+      <InputWrapper
+        component={Input}
+        type='radio'
+        inputName='radio2'
+        name='radio'
+      />
+      
+
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import { UPDATE_INPUTS } from 'redux/actions.types';
+import { UPDATE_INPUTS } from 'redux/actions/actions.types';
 
 const inputs = (state = {}, action) => {
   switch (action.type) {
