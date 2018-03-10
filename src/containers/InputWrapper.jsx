@@ -10,6 +10,7 @@ class InputWrapper extends React.Component {
     return(
       <Component
         // input={inputProps}
+        {...this.props}
         onChange={e => this.props.updateInput(e.target.value, this.props.inputName)}
         value={this.props.value[this.props.inputName]}
       />
