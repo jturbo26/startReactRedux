@@ -18,7 +18,7 @@ class InputWrapper extends React.Component {
   }
 
 };
-
+ 
 const mapStateToProps = state =>( {
   value: state.inputs
 })
